@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: coral;
+}
+h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    font-family: monospace;
+    border-spacing: 0.8em;
+
+}
+
+thead{
+    background-color: coral;
+    font-weight: bold;
+}
+
+.code{
+    background-color: rgba(255, 127, 80, 0.5);
+}
+
+td{
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+    border-width: thin;
+    font-size: 1.2rem;
+    border-left: 2px solid #333;
+    padding: 0.2em;
+    border-radius: 4px;
+}
+
+th{
+    font-size: 20px;
+    text-align: left;
+    border-left: 2px solid #333 ;
+    padding: 10px;
+    border-bottom: 2px solid #333
+}
